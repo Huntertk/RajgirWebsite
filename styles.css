@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 3px;
+}
+.header{
+    height: 100vh;
+    background-image: url('./images/rajgir-img1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header-title{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #eee;
+    padding: 20px 20px;
+    background-color: #263159;
+    text-shadow: 4px 4px 3px #000;
+    border-radius: 6px;
+}
+#header-para{
+    width: 50%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #eee;
+    padding: 10px 4px;
+    background-color: #62B6B7;
+    text-shadow: 1px 1px 3px #000;
+    border-radius: 6px;
+    letter-spacing: 3px;
+}
+#main-section-heading{
+    text-shadow: 2px 2px 5px #000;
+    font-size: 1.5rem;
+}
+.main-section{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tourist-place1{
+    font-weight: lighter;
+    height: 20%;
+    color: #251749;
+    text-shadow: 1px 1px 3px #000;
+    width:  30.333%;
+}
+.img{
+    width: 80%;
+    border-radius: 10px;
+}
+.card{
+    width: 500px;
+    margin: 60px auto ;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    text-align: center;
+    text-shadow: 4px 4px 5px #000;
+    border-radius: 6px;
+    color: #eee;
+    background-color: #251749;
+}
+#img-card{
+    width: 30%;
+    border-radius:  50%;
+    border: 1px solid;
+}
